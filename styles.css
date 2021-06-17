@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(90deg, rgba(64, 145, 108, 0.8), rgba(82, 183, 136, 0.7)), url("./img/backgroundWeb.png");
+    background-image: linear-gradient(90deg, rgba(87, 181, 138, 0.8), rgba(82, 183, 136, 0.7)), url("./img/backgroundWeb.png");
     font-family: 'Josefin Sans', sans-serif;
     color: rgb(8, 28, 21);
 }
@@ -43,7 +43,7 @@ label {
 
 .inputs {
     font-family: inherit;
-    font-size: 18px;
+    font-size: 1rem;
     margin: 0;
 }
 
@@ -58,11 +58,16 @@ p {
     margin-bottom: 0.35rem;
 }
 
+.options {
+    font-size: 1.05rem;
+}
+
 .radio,
 .checkbox {
     width: 1.25rem;
     height: 1.25rem;
     margin-right: 0.625rem;
+    font-size: 1rem;
 }
 
 #button_submit {
@@ -75,8 +80,33 @@ p {
 
 #comments {
     height: 9rem;
+    padding: 0.650rem;
+    resize: vertical;
 }
 
 #button_submit:hover {
     background: rgb(37, 248, 192);
+}
+
+@media (max-width: 1300px) {
+    #main {
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 2.5%;
+    }
+}
+
+@media (max-width: 900px) {
+    #main {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 2.5%;
+    }
+}
+
+@media (max-width: 400px) {
+    #main {
+        width: 100%;
+        margin: 0;
+    }
 }
