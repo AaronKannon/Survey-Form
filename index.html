@@ -19,19 +19,19 @@
         <form id="survey-form">
             <div class="form-group">
                 <label id="name-label" for="name">Name</label>
-                <input id="name" class="inputs" type="text" name="name" placeholder="Enter your name" required>
+                <input id="name" class="inputs text" type="text" name="name" placeholder="Enter your name" required>
             </div>
             <div class="form-group">
                 <label id="email-label" for="email">Email</label>
-                <input id="email" class="inputs" type="email" name="email" placeholder="Enter your email" required>
+                <input id="email" class="inputs text" type="email" name="email" placeholder="Enter your email" required>
             </div>
             <div class="form-group">
                 <label id="number-label" for="number">Age (optional)</label>
-                <input id="number" class="inputs" type="number" name="number" placeholder="Age" min="1" max="99">
+                <input id="number" class="inputs text" type="number" name="number" placeholder="Age" min="1" max="99">
             </div>
             <div class="form-group">
                 <label id="role-label" for="role">Which are your current role?</label>
-                <select name="role" id="dropdown" class="inputs">
+                <select name="role" id="dropdown" class="inputs dropdown">
                     <option disabled selected value>Select current role</option>
                     <option value="gamemaster" class="inputs">Game Master</option>
                     <option value="player" class="inputs">Player</option>
@@ -41,34 +41,34 @@
             <div class="form-group">
                 <p>Would you recommend this sheet to a friend?</p>
                 <label for="definitely">
-                    <input id="definitely" class="inputs" type="radio" name="recommend" value="definitely" checked>Definitely
+                    <input id="definitely" class="inputs radio" type="radio" name="recommend" value="definitely" checked>Definitely
                 </label>
                 <label for="maybe">
-                    <input id="maybe" class="inputs" type="radio" name="recommend" value="maybe">Maybe
+                    <input id="maybe" class="inputs radio" type="radio" name="recommend" value="maybe">Maybe
                 </label>
                 <label for="notsure">
-                    <input id="notsure" class="inputs" type="radio" name="recommend" value="notsure" checked>Not sure
+                    <input id="notsure" class="inputs radio" type="radio" name="recommend" value="notsure" checked>Not sure
                 </label>
             </div>
             <div class="form-group">
                 <p>What would you like to see improved? (Check all that apply)</p>
                 <label for="visual">
-                    <input id="visual" class="inputs" type="checkbox" name="improve" value="visual">Visual
+                    <input id="visual" class="inputs checkbox" type="checkbox" name="improve" value="visual">Visual
                 </label>
                 <label for="automatization">
-                    <input id="automatization" class="inputs" type="checkbox" name="improve" value="automatization">Automatization
+                    <input id="automatization" class="inputs checkbox" type="checkbox" name="improve" value="automatization">Automatization
                 </label>
                 <label for="optimization">
-                    <input id="optimization" class="inputs" type="checkbox" name="improve" value="optimization">Optimization
+                    <input id="optimization" class="inputs checkbox" type="checkbox" name="improve" value="optimization">Optimization
                 </label>
                 <label for="compendium">
-                    <input id="compendium" class="inputs" type="checkbox" name="improve" value="compendium">Compendium
+                    <input id="compendium" class="inputs checkbox" type="checkbox" name="improve" value="compendium">Compendium
                 </label>
                 <label for="compatibility">
-                    <input id="compatibility" class="inputs" type="checkbox" name="improve" value="compatibility">Compatibility with other modules
+                    <input id="compatibility" class="inputs checkbox" type="checkbox" name="improve" value="compatibility">Compatibility with other modules
                 </label>
                 <label for="accessibility">
-                    <input id="accessibility" class="inputs" type="checkbox" name="improve" value="accessibility">Accessibility
+                    <input id="accessibility" class="inputs checkbox" type="checkbox" name="improve" value="accessibility">Accessibility
                 </label>
             </div>
             <div class="form-group">
