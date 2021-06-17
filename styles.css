@@ -72,9 +72,11 @@ p {
 
 #button_submit {
     background: rgb(6, 198, 147);
+    font-size: 1.25rem;
     color: #ffffff;
     height: 3rem;
     margin-top: 2rem;
+    border: 1px solid rgb(6, 198, 147);
     border-radius: 5px;
 }
 
